@@ -227,11 +227,21 @@ main {
     align-items: flex-start;
 }
 
-.task.atividades .title {
+.task.atividade .title {
     color: #3F5E94;
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+.atividades{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main-content{
+    
 }
